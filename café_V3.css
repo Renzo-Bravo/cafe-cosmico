@@ -2,9 +2,14 @@ body {
     background-image: url(fondo_azul_oscuro.jpg);
 }
 
-.logo {
-    height: 100px;
-    width: 100px;
+.logo{
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    text-align:center;
+    margin:1 auto;
+    height: 200px;
+    width: 200px;
 }
 
 h1 {
