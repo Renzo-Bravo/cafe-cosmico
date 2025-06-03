@@ -1,0 +1,54 @@
+body {
+    background-image: url(fondo_azul_oscuro.jpg);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+}
+
+.seccion-tarjetas {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 200px;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.descripción {
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+aside {
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

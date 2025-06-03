@@ -1,0 +1,17 @@
+body {
+    background-image: url(fondo_marron.jpg);
+}
+
+img {
+    height: 100px;
+}
+
+header {
+    color: white;
+    width: 2000px;
+    height: 100px;
+}
+
+footer {
+    color: white;
+}
