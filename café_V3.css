@@ -46,7 +46,15 @@ nav {
 }
 
 aside {
+    background-color: rgba(51, 51, 181, 0.249);
     color: white;
+    font-size: 24px;
+    border-style: solid;
+    border-color: rgba(51, 51, 181, 0.249);
+    border-radius: 3%;
+    padding: 3%;
+    text-align: center;
+    
 }
 
 footer {
