@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap'); 
 
 body {
-    background-image: url(fondo_azul_oscuro.jpg);
+    background-image: url(fondo_marron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
     font-family: "WDXL Lubrifont TC", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.logo {
-    height: 100px;
-    width: 100px;
+.logo-principal {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
 }
 
 h1 {
     color: white;
-}
-
-img {
-    width: 100%;
 }
 
 nav {
@@ -33,7 +33,7 @@ nav {
 .tarjeta {
     width: 200px;
     color: black;
-    background-color: white;
+    background-color: rgba(39, 11, 11, 0.568);
     border-style: solid;
     border-radius: 5px;
     border-color: white;
@@ -45,15 +45,25 @@ nav {
 
 }
 
+.img-card {
+    width: 100%;
+}
+
 .descripción {
     padding: 12px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .card-bottom {
     background-color: lightgrey;
     border-style: solid;
     width: 200px;
+}
+
+.card-bottom {
+    color: white;
+    background-color: rgb(66, 18, 18);
 }
 
 aside {
