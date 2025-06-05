@@ -90,6 +90,7 @@ nav {
 .card-bottom:hover {
     background-color: white;
     color: rgb(66, 18, 18);
+    transition: all 0.2s ease;
 }
 
 .end {
